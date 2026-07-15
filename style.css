@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto !important;
+}
+
+.wrapper {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+
+header, .hero {
+    background-color: #1F2937;
+    padding: 32px 0;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+/* Hero Styles */
+
+.hero > * {
+    color: #f9faf8;
+}
+
+.hero .wrapper {
+    display: flex;
+    flex: auto;
+    gap: 45px;
+    margin: 64px auto;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom:16px;
+}
+
+.hero-content button {
+    margin: 8px 0;
+}
+
+.hero-secondary-text, .btn-sign-up {
+    font-size: 24px;
+}
+
+.hero-secondary-text {
+    margin-bottom: 16px;
+}
+
+.btn-sign-up {
+    background-color: #3882f6;
+    padding: 6px 32px;
+    border-radius: 8px;
+    border: none;
+    color: #f9faf8;
+}
+
+.placeholder-image {
+    background-color: #6d747e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Information Styles */
+
+.information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 64px 0;
+    text-align: center;
+}
+
+.placeholder-illustration {
+    border: 5px solid #3882f6;
+    border-radius: 16px;
+    height: 220px;
+    margin-bottom: 16px;
+}
+
+.illustration-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    margin: 0 150px;
+}
+
+.illustration-container figcaption {
+    color: #6d747e;
+    font-size: 24px;
+    text-align: center;
+}
+
+.random-information .wrapper {
+    margin-bottom: 128px;
+}
+
+/* Quote Style */
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-section figure {
+    width: 780px;
+    padding: 124px 0;
+    margin: 0 auto;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-section .quote-author {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: right;
+}
+
+/* Call to Action Style */
+
+.call-to-action .wrapper {
+    margin: 128px auto;
+    padding: 50px 128px;
+    background-color: #3882f6;
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.cta-sub-heading {
+    font-size: 18px;
+}
+
+.btn-cta {
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    padding: 8px 44px;
+    align-self: center;
+}
+
+/* Footer Style */
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 64px;
+}
